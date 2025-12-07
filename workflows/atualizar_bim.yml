@@ -1,7 +1,14 @@
-name: Atualizar BIM
-on: workflow_dispatch
+name: Atualizar BIM (exemplo)
+
+on:
+  workflow_dispatch:
+
 jobs:
-  run:
+  atualizar:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v3
+
+      - name: Rodar agente BIM (exemplo)
+        run: python agents/agente_bim.py
