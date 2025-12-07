@@ -26,7 +26,7 @@ Scripts que simulam agentes inteligentes:
 ### 📁 `scripts/`
 Scripts auxiliares:
 
-- **coletar_dados.py** → cria arquivo CSV com dados de sensores (exemplo).  
+- **coletar_dados.py** → cria arquivo CSV com dados de sensores 
 - **registrar_resultados.py** → registra resultados em arquivo JSON (log).
 
 ---
@@ -48,7 +48,7 @@ Workflows GitHub Actions de exemplo:
 - **relatorio_semanal.yml**  
 - **atualizar_bim.yml**
 
-Esses workflows simulam automações (executados somente manualmente via *workflow_dispatch*).
+Esses workflows simulam automações
 
 ---
 
