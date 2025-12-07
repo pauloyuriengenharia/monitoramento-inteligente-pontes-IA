@@ -1,3 +1,18 @@
 agents:
   - name: analise_estrutural
-    description: Analisa sensores
+    description: Analisa dados de sensores e identifica anomalias.
+    prompt: "Analise os dados, identifique anomalias e classifique a criticidade."
+
+  - name: agente_bim
+    description: Localiza anomalias no modelo IFC e gera instruções de visualização.
+    prompt: "Receba a anomalia e destaque a posição no modelo IFC."
+
+  - name: relatorios
+    description: Gera relatórios técnicos padronizados.
+    prompt: "Crie relatório com resumo, anomalias e recomendações."
+
+workflow:
+  - from: analise_estrutural
+    to: agente_bim
+  - from: agente_bim
+    to: relatorios
