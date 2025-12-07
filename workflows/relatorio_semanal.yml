@@ -1,7 +1,22 @@
-name: Relatório semanal
-on: workflow_dispatch
+name: Relatorio Semanal (exemplo)
+
+on:
+  workflow_dispatch:
+
 jobs:
-  run:
+  relatorio:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v3
+
+      - name: Setup Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.10'
+
+      - name: Instalar dependências
+        run: pip install pandas
+
+      - name: Gerar relatório
+        run: python agents/relatorios.py
