@@ -1,0 +1,3 @@
+agents:
+  - name: analise_estrutural
+    description: Analisa sensores
