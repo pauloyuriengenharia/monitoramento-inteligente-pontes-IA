@@ -1,7 +1,25 @@
-name: Analise diária
-on: workflow_dispatch
+name: Analise Diaria (exemplo)
+
+on:
+  workflow_dispatch:
+
 jobs:
-  run:
+  analise:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v3
+
+      - name: Setup Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.10'
+
+      - name: Instalar dependências
+        run: pip install pandas
+
+      - name: Criar dados de exemplo
+        run: python scripts/coletar_dados.py
+
+      - name: Executar análise
+        run: python agents/analise_estrutural.py
