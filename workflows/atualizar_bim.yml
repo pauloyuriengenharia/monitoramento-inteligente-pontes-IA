@@ -1,0 +1,7 @@
+name: Atualizar BIM
+on: workflow_dispatch
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
