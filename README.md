@@ -65,21 +65,21 @@ Além do código, o repositório deve conter:
 
   ---
 
-  ## 📚 Referências Bibliográficas
+## 📚 Referências Bibliográficas
 
-KUTZ, Myer. *Handbook of Structural Health Monitoring*. 2. ed. New York: Wiley, 2021.
+KUTZ, Myer. **Handbook of Structural Health Monitoring**. 2. ed. New York: Wiley, 2021.
 
-LIU, A.; SMITH, J. *Prompt Engineering Foundations*. Cambridge: MIT Press, 2023.
+LIU, A.; SMITH, J. **Prompt Engineering Foundations**. Cambridge: MIT Press, 2023.
 
-MOURA, T.; SILVA, R. Inteligência artificial aplicada à manutenção preditiva em infraestruturas urbanas. *Revista Brasileira de Engenharia Civil*, São Paulo, v. 29, n. 2, p. 45-59, 2022.
+MOURA, T.; SILVA, R. **Inteligência artificial aplicada à manutenção preditiva em infraestruturas urbanas**. *Revista Brasileira de Engenharia Civil*, São Paulo, v. 29, n. 2, p. 45-59, 2022.
 
-NUSSBAUM, M.; HARRISON, K.; PETERSON, L. Automação e reprodutibilidade em projetos de IA. *Journal of Intelligent Systems Engineering*, Londres, v. 11, n. 3, p. 120-138, 2022.
+NUSSBAUM, M.; HARRISON, K.; PETERSON, L. **Automação e reprodutibilidade em projetos de IA.** *Journal of Intelligent Systems Engineering*, Londres, v. 11, n. 3, p. 120-138, 2022.
 
-RUSSELL, Stuart; NORVIG, Peter. *Artificial Intelligence: A Modern Approach*. 4. ed. New Jersey: Pearson, 2016.
+RUSSELL, Stuart; NORVIG, Peter. **Artificial Intelligence: A Modern Approach**. 4. ed. New Jersey: Pearson, 2016.
 
-SUN, L.; SHANG, Z.; XIA, Y.; BHOWMICK, S. Machine-learning-based structural anomaly detection for bridges. *Engineering Structures*, Amsterdam, v. 209, p. 110-118, 2020.
+SUN, L.; SHANG, Z.; XIA, Y.; BHOWMICK, S. Machine-learning-based structural anomaly detection for bridges. **Engineering Structures**, Amsterdam, v. 209, p. 110-118, 2020.
 
-VOLK, R.; STENGEL, J.; SCHULTMANN, F. Building Information Modeling (BIM) for existing buildings. *Automation in Construction*, Amsterdã, v. 38, p. 109-127, 2014.
+VOLK, R.; STENGEL, J.; SCHULTMANN, F. Building Information Modeling (BIM) for existing buildings. **Automation in Construction**, Amsterdã, v. 38, p. 109-127, 2014.
 
-YE, X.; SU, Y.; HAN, J. Structural health monitoring using smart sensors. *Sensors*, Basel, v. 21, n. 4, p. 1-22, 2021.
+YE, X.; SU, Y.; HAN, J. **Structural health monitoring using smart sensors**. *Sensor*, Basel, v. 21, n. 4, p. 1-22, 2021.
 
